@@ -2,12 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>sk.ukf.fpv.ki</groupId>
-    <artifactId>projectSI</artifactId>
+    <artifactId>Evidencia</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../projectSI</relativePath>
+    <relativePath>../Evidencia</relativePath>
   </parent>
 
-  <artifactId>projectSI.persistence</artifactId>
+  <artifactId>Evidencia.persistence</artifactId>
   <name>persistence</name>
   <packaging>ejb</packaging>
   

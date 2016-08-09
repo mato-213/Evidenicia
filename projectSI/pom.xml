@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>sk.ukf.fpv.ki</groupId>
-	<artifactId>projectSI</artifactId>
+	<artifactId>Evidencia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<description>Web application for university data visualization and analysis</description>
+	<description>Web application for evidence</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -52,9 +52,9 @@
     </build>
 
     <modules>
-    	<module>../projectSI.persistence</module>
-    	<module>../projectSI.business</module>
-    	<module>../projectSI.ui</module>
+    	<module>../Evidencia.persistence</module>
+    	<module>../Evidencia.business</module>
+    	<module>../Evidencia.ui</module>
         <!-- module>../projectSI.core</module-->
     </modules>
 

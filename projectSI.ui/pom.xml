@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>sk.ukf.fpv.ki</groupId>
-    <artifactId>projectSI</artifactId>
+    <artifactId>Evidencia</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>projectSI.ui</artifactId>
+  <artifactId>Evidencia.ui</artifactId>
   <packaging>war</packaging>
-  <name>projectSI.ui</name>
+  <name>Evidencia.ui</name>
   
   <dependencies>
 	<dependency>
@@ -48,14 +48,14 @@
         </dependency>
         <dependency>
         <groupId>sk.ukf.fpv.ki</groupId>
-            <artifactId>projectSI.business</artifactId>
+            <artifactId>Evidencia.business</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>ejb</type>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>sk.ukf.fpv.ki</groupId>
-            <artifactId>projectSI.persistence</artifactId>
+            <artifactId>Evidencia.persistence</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>provided</scope>
             <type>ejb</type>

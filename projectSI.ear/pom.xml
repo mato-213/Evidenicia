@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>sk.ukf.fpv.ki</groupId>
-    <artifactId>projectSI</artifactId>
+    <artifactId>Evidencia</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>projectSI.ear</artifactId>
+  <artifactId>Evidencia.ear</artifactId>
   <packaging>ear</packaging>
-  <name>projectSI.ear</name>
+  <name>Evidencia.ear</name>
   
   <build>
         <plugins>
@@ -22,16 +22,16 @@
                     <modules>
                         <webModule>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>projectSI.ui</artifactId>
+                            <artifactId>Evidencia.ui</artifactId>
                             <contextRoot>projectSI</contextRoot>
                         </webModule>
                         <ejbModule>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>projectSI.business</artifactId>
+                            <artifactId>Evidencia.business</artifactId>
                         </ejbModule>
                         <ejbModule>
                             <groupId>${project.groupId}</groupId>
-                            <artifactId>projectSI.persistence</artifactId>
+                            <artifactId>Evidencia.persistence</artifactId>
                         </ejbModule>
                         <!-- jarModule>
                             <groupId>${project.groupId}</groupId>
@@ -46,19 +46,19 @@
     <dependencies>
         <dependency>
             <groupId>sk.ukf.fpv.ki</groupId>
-            <artifactId>projectSI.business</artifactId>
+            <artifactId>Evidencia.business</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>ejb</type>
         </dependency>
         <dependency>
             <groupId>sk.ukf.fpv.ki</groupId>
-            <artifactId>projectSI.persistence</artifactId>
+            <artifactId>Evidencia.persistence</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>ejb</type>
         </dependency>
         <dependency>
             <groupId>sk.ukf.fpv.ki</groupId>
-            <artifactId>projectSI.ui</artifactId>
+            <artifactId>Evidencia.ui</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>war</type>
         </dependency>
